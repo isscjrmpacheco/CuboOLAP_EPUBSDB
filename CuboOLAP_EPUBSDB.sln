@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "CuboOLAP_EPUBSDB", "CuboOLAP_EPUBSDB\CuboOLAP_EPUBSDB.dwproj", "{FBB4814F-4880-418B-92B3-10EC730BCFDC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FBB4814F-4880-418B-92B3-10EC730BCFDC}.Development|Default.ActiveCfg = Development
+		{FBB4814F-4880-418B-92B3-10EC730BCFDC}.Development|Default.Build.0 = Development
+		{FBB4814F-4880-418B-92B3-10EC730BCFDC}.Development|Default.Deploy.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6AA37C20-9A51-4643-A7C7-9EA646E2C70C}
+	EndGlobalSection
+EndGlobal

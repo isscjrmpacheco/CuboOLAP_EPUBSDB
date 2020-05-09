@@ -1,0 +1,96 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>CuboOLAP_EPUBSDB</Database>
+    <Server>localhost</Server>
+    <ConnectionString>Data Source=localhost;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>DoNotProcess</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>1XzQ6TSSu3H95hrNEGITP4Vmvu0=5/4/2020 8:55:43 PM5/4/2020 8:47:09 PM</TimeStamp>
+        <ID>
+          <String>PUBS DW</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>jgCOvmZ5Q2/zYhEPIvVoJwSW/qU=5/4/2020 8:49:22 PM5/4/2020 8:49:22 PM</TimeStamp>
+        <ID>
+          <String>PUBS DW</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>9DYMshOAhkmoJpcERf006useeVs=5/4/2020 8:53:58 PM5/4/2020 8:49:54 PM</TimeStamp>
+        <ID>
+          <String>DIM EDITORIAL</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>pf9Swtxy3azJwiM0E11rPkkpn7g=5/4/2020 8:53:43 PM5/4/2020 8:49:54 PM</TimeStamp>
+        <ID>
+          <String>DIM LUGAR</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>Xz1wPQrsdx/3NLGZUuw5ClnCaDM=5/4/2020 8:53:13 PM5/4/2020 8:49:54 PM</TimeStamp>
+        <ID>
+          <String>DIM TIEMPO</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>GhSCsm9vSeyOTWj4VK8y7Jr4FRE=5/4/2020 8:53:13 PM5/4/2020 8:49:54 PM</TimeStamp>
+        <ID>
+          <String>DIM AUTOR</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>ssPdLp67pltG0wYnSvQVJmBpxpE=5/4/2020 8:53:19 PM5/4/2020 8:49:54 PM</TimeStamp>
+        <ID>
+          <String>DIM LIBRO</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>EMmeNHSy4PGOKkq4EFNiDGWWf6A=5/4/2020 8:53:13 PM5/4/2020 8:49:54 PM</TimeStamp>
+        <ID>
+          <String>DIM TIENDA</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>/lKG0P5f9sKi5tB826ufqFt8PnI=5/4/2020 11:46:26 PM5/4/2020 8:49:54 PMnVCngJcAqzWTrN6UpnwPlAxBQ1k=5/4/2020 8:49:54 PM5/4/2020 8:49:54 PM</TimeStamp>
+        <ID>
+          <String>PUBS DW</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>C97boBcimpYN/74TyBums2VvMWo=5/4/2020 8:16:50 PM5/4/2020 8:16:46 PM</TimeStamp>
+      <ID>
+        <String>CuboOLAP_EPUBSDB</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2020-05-05T07:00:17.336667Z</LastDeployed>
+</DeploymentSnapshot>
